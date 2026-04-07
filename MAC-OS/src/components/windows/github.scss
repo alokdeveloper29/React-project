@@ -1,0 +1,54 @@
+.cards{
+    overflow: scroll;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    justify-content: center;
+    padding-bottom: 5rem;
+    .card{
+        flex-grow: 1;
+        flex-basis: 8rem;
+        max-width: 11rem;
+        padding-inline: 0.4rem;
+        padding-block: 0.4rem;
+        background-color: rgb(34, 34, 34);
+        border-radius: 0.4rem;
+        color: rgb(245, 245, 245);
+        img{
+            width: 100%;
+            border-radius: 0.4rem;
+        }
+        h1{
+            font-size: 0.8rem;
+            font-weight: 400;
+        }
+        p{
+            font-size: 0.6rem;
+            margin-top: 0.25rem;
+        }
+        .tags{
+            margin-top: 0.2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.25rem;
+            .tag{
+                background-color: rgba(255, 255, 255, 0.2);
+                font-size: 0.75rem;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.25rem;
+            }
+        }
+        .urls{
+            margin-top: 0.3rem;
+            display: flex;
+            gap: 0.5rem;
+            a{
+                font-size: 0.75rem;
+                color: rgb(240, 240, 240);
+                text-decoration: none;
+            }
+        }
+    }
+}

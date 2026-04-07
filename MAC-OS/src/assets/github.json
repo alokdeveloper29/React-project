@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1761839257469-96c78a7c2dd3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+    "title": "React Components Library",
+    "description": "A comprehensive collection of reusable React components built with modern JavaScript and styled-components for creating responsive web applications.",
+    "tags": ["React", "Components", "UI", "JavaScript"],
+    "repoLink": "https://github.com/username/react-components-library",
+    "demoLink": "https://react-components-demo.vercel.com"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1769251296969-a4c7aa0b4478?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
+    "title": "Vue 3 Dashboard",
+    "description": "A modern dashboard application built with Vue 3 and Vite, featuring real-time data visualization, charts, and interactive widgets for data analytics.",
+    "tags": ["Vue", "Dashboard", "Data Visualization", "Vite"],
+    "repoLink": "https://github.com/username/vue3-dashboard",
+    "demoLink": "https://vue3-dashboard-demo.netlify.com"
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/400/300?random=3",
+    "title": "Next.js E-commerce Platform",
+    "description": "A full-stack e-commerce platform built with Next.js, featuring product listings, shopping cart, payment integration, and admin dashboard for store management.",
+    "tags": ["Next.js", "E-commerce", "Stripe", "PostgreSQL"],
+    "repoLink": "https://github.com/username/nextjs-ecommerce",
+    "demoLink": "https://nextjs-ecommerce-platform.vercel.com"
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/400/300?random=4",
+    "title": "Node.js REST API",
+    "description": "A scalable REST API built with Node.js and Express, featuring authentication, database operations, error handling, and comprehensive API documentation.",
+    "tags": ["Node.js", "Express", "REST API", "MongoDB"],
+    "repoLink": "https://github.com/username/nodejs-rest-api",
+    "demoLink": "https://nodejs-rest-api-docs.herokuapp.com"
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/400/300?random=5",
+    "title": "TypeScript Utility Library",
+    "description": "A utility library written in TypeScript providing type-safe functions for common programming tasks including array manipulation, string operations, and data transformation.",
+    "tags": ["TypeScript", "Utilities", "NPM Package", "Type-Safe"],
+    "repoLink": "https://github.com/username/typescript-utility-lib",
+    "demoLink": "https://typescript-utility-lib-docs.netlify.com"
+  }
+]

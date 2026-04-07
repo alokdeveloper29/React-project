@@ -1,0 +1,23 @@
+Progress: Todo list updated and description prepared. Niche chahiye ho to batayein — ab TypeScript-style snippet Hindi mein:
+
+type Availability = 'Full-time' | 'Part-time' | 'Freelance';
+
+interface CoderProfile {
+naam: string;
+padvi?: string;
+anubhavSaal: number;
+mukhyaKshamataen: string[]; // e.g., TypeScript, React
+techStack: {
+frontend: string[];
+backend: string[];
+tools: string[];
+};
+bhashayein: string[]; // spoken/written
+mukhyaPrakalp: { naam: string; varnan: string; link?: string }[];
+sankshipt: string; // 1-2 line summary
+uplabdhata: Availability;
+}
+
+const coder: CoderProfile = { naam: "Amit Kumar", padvi: "Full-Stack Developer", anubhavSaal: 5, mukhyaKshamataen: ["TypeScript", "React", "Node.js", "Express", "SQL"], techStack: { frontend: ["React", "Redux", "Vite", "Tailwind CSS"], backend: ["Node.js", "Express", "TypeORM"], tools: ["Git", "Docker", "Jest", "ESLint"] }, bhashayein: ["Hindi", "English"], mukhyaPrakalp: [ { naam: "FigmaStyle UI", varnan: "Design-to-code component library", link: "https://repo.example.com/figma-style" }, { naam: "PlantStore", varnan: "E-commerce demo with cart and checkout" } ], sankshipt: "Type-safe code likhta hoon; frontend-or backend dono sambhal sakta hoon; clean, testable and performant solutions prefer karta hoon.", uplabdhata: "Full-time" };](https://microsoft.com)))
+
+GPT-5 mini • 1x
